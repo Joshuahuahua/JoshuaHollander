@@ -1,15 +1,20 @@
-body, html {
+/* body, html {
 	height: 100%
-}
+} */
 
 .Title {
-	font-family: "Raleway", sans-serif
+	font-family: "Raleway", sans-serif;
 	text-align: center;
+	color: white;
 }
 
-.bgimg {
+body {
+	background-color: black;
+  }
+
+/* .bgimg {
 	background-image: url('background.jpg');
 	min-height: 100%;
 	background-position: center;
 	background-size: cover;
-}
+} */
