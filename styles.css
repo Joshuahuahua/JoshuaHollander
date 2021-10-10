@@ -12,6 +12,9 @@ h1 {
 	font-family: "Raleway", sans-serif;
 }
 
+body {
+	color: red;
+}
 /* body {
 	background-color: black; */
 /* } */
