@@ -1,27 +1,45 @@
-/* body, html {
-	height: 100%
-} */
-
-h1 {
+.Title, .IconTxt {
 	font-family: "Raleway", sans-serif;
-	/* text-align: center; */
-	/* color: white; */
 }
 
 .Title {
-	font-family: "Raleway", sans-serif;
+	text-align: center;
+	padding: 20vh 0;
+	color: white;
+	font-size: 50px;
+	font-weight: 1;
+	padding-bottom: 25px;
+}
+
+.Divide {
+	width:50%;
+	color: rgb(182, 182, 182);
+}
+
+.IconCont {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 30px;
+  }
+
+.IconImg {
+	object-fit:contain;
+	width: 100px;
+	padding-right: 10px;
+}
+
+.IconTxt {
+	color: rgb(182, 182, 182);
+	font-size: 25px;
+	padding-left: 25px;
 }
 
 body {
-	color: red;
-}
-/* body {
-	background-color: black; */
-/* } */
+	background-color: black;
 
-/* .bgimg {
-	background-image: url('background.jpg');
+	/* background-image: url('background.jpg');
 	min-height: 100%;
 	background-position: center;
-	background-size: cover;
-} */
+	background-size: cover; */
+}
