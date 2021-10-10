@@ -2,7 +2,7 @@
 	height: 100%
 } */
 
-.Title {
+body, h1, .Title {
 	font-family: "Raleway", sans-serif;
 	text-align: center;
 	color: white;
